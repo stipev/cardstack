@@ -1,0 +1,59 @@
+[
+  {
+    "cardType": ["spades", "hearts", "diamonds", "clubs"],
+    "cardValues": [
+      {
+        "number": 1,
+        "value": "Ace"
+      },
+      {
+        "number": 2,
+        "value": "Two"
+      },
+      {
+        "number": 3,
+        "value": "Three"
+      },
+      {
+        "number": 4,
+        "value": "Four"
+      },
+      {
+        "number": 5,
+        "value": "Five"
+      },
+      {
+        "number": 6,
+        "value": "Six"
+      },
+      {
+        "number": 7,
+        "value": "Seven"
+      },
+      {
+        "number": 8,
+        "value": "Eight"
+      },
+      {
+        "number": 9,
+        "value": "Nine"
+      },
+      {
+        "number": 10,
+        "value": "Ten"
+      },
+      {
+        "number": 11,
+        "value": "Jack"
+      },
+      {
+        "number": 12,
+        "value": "Queen"
+      },
+      {
+        "number": 13,
+        "value": "King"
+      }
+    ]
+  }
+]
