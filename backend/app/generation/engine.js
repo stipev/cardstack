@@ -1,4 +1,4 @@
-const Generation = require("./generation.js");
+const Generation = require("./index.js");
 
 class GeneratorEngine {
   constructor() {
@@ -15,9 +15,9 @@ class GeneratorEngine {
   }
   getGeneration() {
     this.generation = new Generation();
-    console.log("generation: ", this.generation);
-    console.log("card: ", this.generation.getCard());
-    console.log("card2: ", this.generation.getCard());
+    //console.log("generation: ", this.generation);
+    // console.log("card: ", this.generation.getCard());
+    //console.log("card2: ", this.generation.getCard());
 
     this.timer = setTimeout(() => {
       this.getGeneration();

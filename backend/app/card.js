@@ -1,4 +1,4 @@
-const CARDS = require("./Values.json");
+const CARDS = require("../data/Values.json");
 
 const DEFAULT_PROPERTIES = {
   get receivedDate() {

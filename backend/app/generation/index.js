@@ -1,5 +1,5 @@
-const Card = require("./card.js");
-const { SECONDS, REFRESH_RATE } = require("./config.js");
+const Card = require("../card.js");
+const { SECONDS, REFRESH_RATE } = require("../config.js");
 
 const REFRESH_TIME = SECONDS * REFRESH_RATE;
 
