@@ -1,3 +1,5 @@
 const { Pool } = require("pg");
+const databaseConfiguration = require("./secrets/databaseConfiguration.js");
+const pool = new Pool(databaseConfiguration);
 
-const pool = new Pool();
+module.exports = pool;

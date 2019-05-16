@@ -1,4 +1,5 @@
 const Generation = require("./index.js");
+const GenerationTable = require("./table.js");
 
 class GenerationEngine {
   constructor() {
@@ -15,6 +16,7 @@ class GenerationEngine {
   }
   getGeneration() {
     this.generation = new Generation();
+    GenerationTable.storeGeneration(this.generation);
     //console.log("generation: ", this.generation);
     // console.log("card: ", this.generation.getCard());
     //console.log("card2: ", this.generation.getCard());
