@@ -1,6 +1,6 @@
 const Generation = require("./index.js");
 
-class GeneratorEngine {
+class GenerationEngine {
   constructor() {
     this.generation = null;
     this.timer = null;
@@ -25,4 +25,4 @@ class GeneratorEngine {
   }
 }
 
-module.exports = GeneratorEngine;
+module.exports = GenerationEngine;

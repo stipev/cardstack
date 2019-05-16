@@ -1,9 +1,9 @@
-const GeneratorEngine = require("./generation/engine.js");
+const GenerationEngine = require("./generation/engine.js");
 const express = require("express");
 const cardRouter = require("../api/card.js");
 const generationRouter = require("../api/generation.js");
 
-const engine = new GeneratorEngine();
+const engine = new GenerationEngine();
 const app = express();
 
 app.locals.engine = engine;
